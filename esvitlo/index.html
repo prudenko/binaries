@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="uk">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>єСвітло — завантажити</title>
+<style>
+  :root { color-scheme: dark; }
+  body { margin: 0; padding: 40px 20px; background: #0A101B; color: #F7FAFF;
+         font: 16px/1.55 system-ui, -apple-system, Segoe UI, Roboto, sans-serif; }
+  main { max-width: 560px; margin: 0 auto; }
+  h1 { font-size: 28px; margin: 0 0 6px; }
+  h2 { font-size: 17px; margin: 34px 0 12px; color: #E7EEF8; }
+  .muted { color: #93A7BD; }
+  .card { background: #18283B; border: 1px solid #304763; border-radius: 18px;
+           padding: 22px; margin: 22px 0; }
+  a.button { display: block; text-align: center; background: #7E5CC8; color: #fff;
+              text-decoration: none; padding: 15px; border-radius: 13px;
+              font-weight: 700; }
+  code { font-size: 13px; color: #B0BED1; word-break: break-all; }
+  img.phone { display: block; width: 290px; max-width: 100%; margin: 0 auto;
+               border-radius: 22px; border: 1px solid #304763; }
+  img.wide, img.dialog { display: block; width: 100%; border-radius: 18px;
+                          border: 1px solid #304763; }
+  figure { margin: 0; }
+  figure.dialog { margin: 18px 0 0; }
+  figcaption { margin-top: 10px; font-size: 14px; color: #93A7BD; text-align: center; }
+  .donate { text-align: center; margin: 34px 0 10px; }
+  .donate a { color: #C5B4FF; font-weight: 700; text-decoration: none; font-size: 17px; }
+  ol.steps { margin: 0; padding-left: 22px; }
+  ol.steps li { margin-bottom: 12px; color: #B0BED1; }
+  ol.steps b { color: #F7FAFF; }
+</style>
+<main>
+  <h1>єСвітло</h1>
+  <p class="muted">Графік відключень світла у Львові. Android 7+.</p>
+
+  <div class="card">
+    <p style="margin:0 0 4px"><b>Версія 1.14.2</b></p>
+    <p class="muted" style="margin:0 0 18px">Без реклами, без реєстрації, без збору даних.</p>
+    <a class="button" href="https://github.com/prudenko/binaries/releases/download/esvitlo-v1.14.2/esvitlo-v1.14.2.apk">Завантажити APK</a>
+    <p class="muted" style="margin:16px 0 0; font-size:14px">
+      Телефон попередить про встановлення з невідомих джерел — це нормально,
+      застосунок роздається напряму, не через Play Store.
+    </p>
+  </div>
+
+    <h2>Як воно виглядає</h2>
+  <figure class="wide">
+    <img class="wide" src="widget.png?v=1.14.2" alt="Віджет: стан світла, таймер і курси — не відкриваючи застосунок">
+    <figcaption>Віджет: стан світла, таймер і курси — не відкриваючи застосунок</figcaption>
+  </figure>
+
+  <figure class="phone">
+    <img class="phone" src="app.png?v=1.14.2" alt="Головний екран">
+    <figcaption>Головний екран</figcaption>
+  </figure>
+
+
+  <h2>Як користуватись</h2>
+  <ol class="steps">
+    <li><b>Встановити.</b> Завантажте APK і дозвольте встановлення з невідомих
+        джерел, коли телефон попередить.</li>
+    <li><b>Вибрати свою групу.</b> Номер групи вказано у графіку відключень
+        на <a href="https://loe.lviv.ua" style="color:#C5B4FF">сайті Львівобленерго</a>.
+        Якщо там не знайдете — групу можна уточнити в квитанції за
+        електроенергію, у своєму ОСББ або в інших сервісах Львівобленерго.
+        У застосунку це список «ГРУПА ГРАФІКА» вгорі екрана.</li>
+    <li><b>Додати віджет.</b> Або довге натискання на порожньому місці
+        головного екрана → «Віджети» → єСвітло, або в застосунку:
+        шестерня вгорі праворуч → «Віджет на екран» → «Додати віджет на екран».
+        У налаштуваннях віджета можна вимкнути погоду чи курс валют — графік
+        і таймер показуються завжди.</li>
+    <li><b>Подивитися версію й джерело даних.</b> Там же, під шестернею, є
+        «Про застосунок»: версія, посилання на Львівобленерго й примітка, що
+        застосунок неофіційний.</li>
+    <li><b>Оновлювати.</b> Дані оновлюються самі раз на 30 хвилин; примусово —
+        кнопкою ↻ у застосунку або на віджеті.</li>
+  </ol>
+
+  <figure class="dialog">
+    <img class="dialog" src="menu.png?v=1.14.2" alt="Меню під шестернею: віджет, про застосунок, підтримка">
+    <figcaption>Меню під шестернею: віджет, про застосунок, підтримка</figcaption>
+  </figure>
+
+  <figure class="dialog">
+    <img class="dialog" src="widget-settings.png?v=1.14.2" alt="Налаштування віджета: що показувати">
+    <figcaption>Налаштування віджета: що показувати</figcaption>
+  </figure>
+
+
+  <div class="card">
+    <p style="margin:0 0 10px"><b>Що означає статус</b></p>
+    <p class="muted" style="margin:0 0 8px">
+      <b style="color:#65D9AD">Відключень немає</b> — світло за графіком є.
+    </p>
+    <p class="muted" style="margin:0 0 8px">
+      <b style="color:#FF8585">Світла немає</b> — триває відключення, поруч таймер
+      до відновлення.
+    </p>
+    <p class="muted" style="margin:0">
+      <b style="color:#FFD18B">До наступного відключення</b> — світло є, поруч
+      час, коли його вимкнуть.
+    </p>
+  </div>
+
+  <p class="muted" style="font-size:14px">
+    Якщо під статусом вказано дату графіка, старшу за сьогодні, — Львівобленерго
+    ще не опублікувало новий. Застосунок у такому разі показує «відключень
+    немає» і не вигадує години зі старого графіка.
+  </p>
+
+  <div class="card">
+    <p class="muted" style="margin:0 0 6px; font-size:13px">SHA-256</p>
+    <code>df48e6177622eb7eea0d895a385b0bc95852a51b85285501100699c079f0d0ff</code>
+  </div>
+
+  <div class="donate">
+    <p class="muted" style="margin:0 0 8px; font-size:14px">
+      Застосунок безкоштовний і без реклами. Якщо став у пригоді — можна подякувати.
+    </p>
+    <a href="https://send.monobank.ua/jar/Gu54yDiGs">Підтримати застосунок ♥</a>
+  </div>
+
+  <p class="muted" style="font-size:14px; text-align:center; margin-top:26px">
+    Дані з <a href="https://loe.lviv.ua" style="color:#C5B4FF">сайту Львівобленерго</a>.
+    Застосунок неофіційний.<br>
+    <a href="https://github.com/prudenko/binaries/releases" style="color:#C5B4FF">Усі релізи</a> ·
+    <a href="https://prudenko.github.io/binaries/esvitlo/latest.json" style="color:#C5B4FF">latest.json</a>
+  </p>
+</main>
+</html>
