@@ -19,8 +19,10 @@
   code { font-size: 13px; color: #B0BED1; word-break: break-all; }
   img.phone { display: block; width: 290px; max-width: 100%; margin: 0 auto;
                border-radius: 22px; border: 1px solid #304763; }
-  img.wide { display: block; width: 100%; border-radius: 18px; border: 1px solid #304763; }
+  img.wide, img.dialog { display: block; width: 100%; border-radius: 18px;
+                          border: 1px solid #304763; }
   figure { margin: 0; }
+  figure.dialog { margin: 18px 0 0; }
   figcaption { margin-top: 10px; font-size: 14px; color: #93A7BD; text-align: center; }
   .donate { text-align: center; margin: 34px 0 10px; }
   .donate a { color: #C5B4FF; font-weight: 700; text-decoration: none; font-size: 17px; }
@@ -42,15 +44,14 @@
     </p>
   </div>
 
-  
-  <h2>Як воно виглядає</h2>
-  <figure>
-    <img class="wide" src="widget.png" alt="Віджет єСвітло на головному екрані: статус світла, таймер і курси валют">
+    <h2>Як воно виглядає</h2>
+  <figure class="wide">
+    <img class="wide" src="widget.png" alt="Віджет: стан світла, таймер і курси — не відкриваючи застосунок">
     <figcaption>Віджет: стан світла, таймер і курси — не відкриваючи застосунок</figcaption>
   </figure>
 
-  <figure style="margin-top:26px">
-    <img class="phone" src="app.png" alt="Головний екран застосунку єСвітло">
+  <figure class="phone">
+    <img class="phone" src="app.png" alt="Головний екран">
     <figcaption>Головний екран</figcaption>
   </figure>
 
@@ -65,11 +66,27 @@
         електроенергію, у своєму ОСББ або в інших сервісах Львівобленерго.
         У застосунку це список «ГРУПА ГРАФІКА» вгорі екрана.</li>
     <li><b>Додати віджет.</b> Або довге натискання на порожньому місці
-        головного екрана → «Віджети» → єСвітло, або в застосунку —
-        шестерня вгорі праворуч → «Віджет на головний екран».</li>
+        головного екрана → «Віджети» → єСвітло, або в застосунку:
+        шестерня вгорі праворуч → «Віджет на екран» → «Додати віджет на екран».
+        У налаштуваннях віджета можна вимкнути погоду чи курс валют — графік
+        і таймер показуються завжди.</li>
+    <li><b>Подивитися версію й джерело даних.</b> Там же, під шестернею, є
+        «Про застосунок»: версія, посилання на Львівобленерго й примітка, що
+        застосунок неофіційний.</li>
     <li><b>Оновлювати.</b> Дані оновлюються самі раз на 30 хвилин; примусово —
         кнопкою ↻ у застосунку або на віджеті.</li>
   </ol>
+
+  <figure class="dialog">
+    <img class="dialog" src="menu.png" alt="Меню під шестернею: віджет, про застосунок, підтримка">
+    <figcaption>Меню під шестернею: віджет, про застосунок, підтримка</figcaption>
+  </figure>
+
+  <figure class="dialog">
+    <img class="dialog" src="widget-settings.png" alt="Налаштування віджета: що показувати">
+    <figcaption>Налаштування віджета: що показувати</figcaption>
+  </figure>
+
 
   <div class="card">
     <p style="margin:0 0 10px"><b>Що означає статус</b></p>
