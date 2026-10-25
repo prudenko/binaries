@@ -9,6 +9,7 @@
          font: 16px/1.55 system-ui, -apple-system, Segoe UI, Roboto, sans-serif; }
   main { max-width: 560px; margin: 0 auto; }
   h1 { font-size: 28px; margin: 0 0 6px; }
+  h2 { font-size: 17px; margin: 34px 0 12px; color: #E7EEF8; }
   .muted { color: #93A7BD; }
   .card { background: #18283B; border: 1px solid #304763; border-radius: 18px;
            padding: 22px; margin: 22px 0; }
@@ -16,6 +17,13 @@
               text-decoration: none; padding: 15px; border-radius: 13px;
               font-weight: 700; }
   code { font-size: 13px; color: #B0BED1; word-break: break-all; }
+  img.phone { display: block; width: 290px; max-width: 100%; margin: 0 auto;
+               border-radius: 22px; border: 1px solid #304763; }
+  img.wide { display: block; width: 100%; border-radius: 18px; border: 1px solid #304763; }
+  figure { margin: 0; }
+  figcaption { margin-top: 10px; font-size: 14px; color: #93A7BD; text-align: center; }
+  .donate { text-align: center; margin: 34px 0 10px; }
+  .donate a { color: #C5B4FF; font-weight: 700; text-decoration: none; font-size: 17px; }
 </style>
 <main>
   <h1>PowerOnInfo</h1>
@@ -31,13 +39,31 @@
     </p>
   </div>
 
+  <h2>Як воно виглядає</h2>
+  <figure>
+    <img class="wide" src="widget.png" alt="Віджет PowerOnInfo на головному екрані: статус світла, таймер і курси валют">
+    <figcaption>Віджет: стан світла, таймер і курси — не відкриваючи застосунок</figcaption>
+  </figure>
+
+  <figure style="margin-top:26px">
+    <img class="phone" src="app.png" alt="Головний екран застосунку PowerOnInfo">
+    <figcaption>Головний екран</figcaption>
+  </figure>
+
   <div class="card">
     <p class="muted" style="margin:0 0 6px; font-size:13px">SHA-256</p>
     <code>11686fd8e62bbe87e8c2e24d66149fd1228230aa249ddcbe910771dc302e8235</code>
   </div>
 
-  <p class="muted" style="font-size:14px">
-    Дані з сайту Львівобленерго. Застосунок неофіційний.
+  <div class="donate">
+    <p class="muted" style="margin:0 0 8px; font-size:14px">
+      Застосунок безкоштовний і без реклами. Якщо став у пригоді — можна подякувати.
+    </p>
+    <a href="https://send.monobank.ua/jar/Gu54yDiGs">Підтримати застосунок ♥</a>
+  </div>
+
+  <p class="muted" style="font-size:14px; text-align:center; margin-top:26px">
+    Дані з сайту Львівобленерго. Застосунок неофіційний.<br>
     <a href="https://github.com/prudenko/binaries/releases" style="color:#C5B4FF">Усі релізи</a> ·
     <a href="https://prudenko.github.io/binaries/poweroninfo/latest.json" style="color:#C5B4FF">latest.json</a>
   </p>
