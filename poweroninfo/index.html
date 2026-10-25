@@ -24,6 +24,9 @@
   figcaption { margin-top: 10px; font-size: 14px; color: #93A7BD; text-align: center; }
   .donate { text-align: center; margin: 34px 0 10px; }
   .donate a { color: #C5B4FF; font-weight: 700; text-decoration: none; font-size: 17px; }
+  ol.steps { margin: 0; padding-left: 22px; }
+  ol.steps li { margin-bottom: 12px; color: #B0BED1; }
+  ol.steps b { color: #F7FAFF; }
 </style>
 <main>
   <h1>PowerOnInfo</h1>
@@ -49,6 +52,41 @@
     <img class="phone" src="app.png" alt="Головний екран застосунку PowerOnInfo">
     <figcaption>Головний екран</figcaption>
   </figure>
+
+  <h2>Як користуватись</h2>
+  <ol class="steps">
+    <li><b>Встановити.</b> Завантажте APK і дозвольте встановлення з невідомих
+        джерел, коли телефон попередить.</li>
+    <li><b>Вибрати свою групу.</b> Номер групи вказано у графіку
+        Львівобленерго — на сайті loe.lviv.ua. У застосунку це список
+        «ГРУПА ГРАФІКА» вгорі екрана.</li>
+    <li><b>Додати віджет.</b> Або довге натискання на порожньому місці
+        головного екрана → «Віджети» → PowerOnInfo, або в застосунку —
+        шестерня вгорі праворуч → «Додати віджет на головний екран».</li>
+    <li><b>Оновлювати.</b> Дані оновлюються самі раз на 30 хвилин; примусово —
+        кнопкою ↻ у застосунку або на віджеті.</li>
+  </ol>
+
+  <div class="card">
+    <p style="margin:0 0 10px"><b>Що означає статус</b></p>
+    <p class="muted" style="margin:0 0 8px">
+      <b style="color:#65D9AD">Відключень немає</b> — світло за графіком є.
+    </p>
+    <p class="muted" style="margin:0 0 8px">
+      <b style="color:#FF8585">Світла немає</b> — триває відключення, поруч таймер
+      до відновлення.
+    </p>
+    <p class="muted" style="margin:0">
+      <b style="color:#FFD18B">До наступного відключення</b> — світло є, поруч
+      час, коли його вимкнуть.
+    </p>
+  </div>
+
+  <p class="muted" style="font-size:14px">
+    Якщо під статусом вказано дату графіка, старшу за сьогодні, — Львівобленерго
+    ще не опублікувало новий. Застосунок у такому разі показує «відключень
+    немає» і не вигадує години зі старого графіка.
+  </p>
 
   <div class="card">
     <p class="muted" style="margin:0 0 6px; font-size:13px">SHA-256</p>
