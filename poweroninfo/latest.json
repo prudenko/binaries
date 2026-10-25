@@ -1,9 +1,9 @@
 {
   "app": "poweroninfo-android",
-  "version": "1.14.0",
-  "apk": "https://github.com/prudenko/binaries/releases/download/poweroninfo-android-v1.14.0/PowerOnInfo-v1.14.0.apk",
-  "sha256": "6bdb1dddc489966b7787931cacbdc3bf4d320757a3166b1253fa206fb4a77f00",
+  "version": "1.14.1",
+  "apk": "https://github.com/prudenko/binaries/releases/download/poweroninfo-android-v1.14.1/PowerOnInfo-v1.14.1.apk",
+  "sha256": "85827dec0809e47d19a5a0e67ae65b1792b3f6530de97b6b738dad56b3fd6f5a",
   "page": "https://prudenko.github.io/binaries/poweroninfo/",
   "donate": "https://send.monobank.ua/jar/Gu54yDiGs",
-  "publishedAt": "2026-10-25T01:14:41Z"
+  "publishedAt": "2026-10-25T09:50:35Z"
 }
