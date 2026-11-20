@@ -1,9 +1,9 @@
 {
   "app": "esvitlo-android",
-  "version": "1.15.5",
-  "apk": "https://github.com/prudenko/binaries/releases/download/esvitlo-v1.15.5/esvitlo-v1.15.5.apk",
-  "sha256": "1602bfd62b6ec6fc998a7bc3df6995ccd256ce128c5c92382ee74c80bec6b023",
+  "version": "1.15.6",
+  "apk": "https://github.com/prudenko/binaries/releases/download/esvitlo-v1.15.6/esvitlo-v1.15.6.apk",
+  "sha256": "363e89bedb5696b24ca559429fa089b49c473160a141d82834984e2fa59d1081",
   "page": "https://prudenko.github.io/binaries/esvitlo/",
   "donate": "https://send.monobank.ua/jar/Gu54yDiGs",
-  "publishedAt": "2026-11-20T21:53:40Z"
+  "publishedAt": "2026-11-20T22:30:28Z"
 }
